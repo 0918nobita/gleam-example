@@ -1,8 +1,6 @@
-import gleam/io.{println}
+import gleam/io
 
 pub fn main() {
-  io.println("Hello, world!")
-
-  println("This is unqualified")
-  // println(42)
+  io.debug(6 * 7)
+  io.debug("string")
 }
